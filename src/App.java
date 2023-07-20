@@ -1,4 +1,4 @@
-import CheckValidString.CheckValidString;
+import turing.CheckValidString;
 
 public class App {
 

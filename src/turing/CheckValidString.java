@@ -1,4 +1,4 @@
-package CheckValidString;
+package turing;
 
 import java.util.Arrays;
 import java.util.List;
