@@ -23,6 +23,23 @@ public class Turing {
         return results;
     }
 
+    /**
+     * @TODO
+     */
+    public static int getMaxDistanceBtwnChars(String text, char c){
+
+        return -1;
+    }
+    
+    /**
+     * @TODO
+     */
+    public static int[] getMisplacedSequence(int[] sequence){
+        // 0 = Duplicated
+        // 1 = Lost
+        return new int[2];
+    }
+
     public static List<Integer> getDistanceArray(String code, char c){
         Queue<Integer> queue = new LinkedList<>();
         List<Integer> distance = new ArrayList<>();
@@ -42,7 +59,7 @@ public class Turing {
         return distance;
     }
 
-    
+
 
     public static void main(String[] args) throws Exception {
         System.out.println(getMorseCode("..--...."));
